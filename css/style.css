@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto:wght@700&display=swap');
+
+
+
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+
+}
+
+header {
+
+    background-color:black;
+    height: 75.90vh;
+ 
+}
+
+
+main > .container-fluid:nth-child(2) {
+    
+    
+    height: 50vh;
+
+
+
+
+}
+
+header , main {    padding: 0 8.33vw !important;}
+
+.navbar { background-color:#1ed760;}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+
+border-color:#1ed760;
+background-image: url(../images/check.png);
+
+}
+
+
+textarea { resize: none;}
+/*this is for the textarea not to be resizable anymore*/
+
+.modal-title { background-color: black; color: white !important;
+padding: 0 10px  !important;}
+
+main > .container-fluid { height: 20vh;}
+
+header>div, main  .container-fluid > div, .carousel-inner, 
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-inner .carousel-item img  { 
+   
+    height: 100%;
+    object-fit: cover;
+    transition-duration: 2000ms, 5s;
+    transform: translate(0);
+   transition-delay: 2s, 0s;
+   transition-timing-function: cubic-bezier(.01,.99,.9,-0.12);
+ }
+
+h1,
+h2 {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 40px;
+    vertical-align: top;
+
+}
+
+h1,
+h3,
+header p {
+    line-height: 125%;
+}
+
+header p {
+    font-size: 15px;
+    color:white;
+}
+
+h3 {
+    font-size: 16px;
+  
+    letter-spacing: 5px;
+
+
+
+
+}
+
+
+
+
+header a {
+
+
+
+
+    font-size: 20px;
+    width: 37.5%;
+
+    display: block;
+
+    padding: 11.5px 0;
+    border-radius: 5px;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    header {
+
+
+        height: auto;
+        padding: 40px
+    }
+
+
+}
+
+footer { background-color: #1ed760;height: auto; padding: 20px; margin-top: 25%;}
